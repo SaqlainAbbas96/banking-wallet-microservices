@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/docker/">
+    <File Path="docker/docker-compose.yml" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/Common/Common.csproj" />
+    <Project Path="src/BuildingBlocks/EventBus/EventBus.csproj" />
+    <Project Path="src/BuildingBlocks/Saga/Saga.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Account.API/">
+    <Project Path="src/Services/Account.API/Account.API/Account.API.csproj" />
+    <Project Path="src/Services/Account.API/Account.Application/Account.Application.csproj" />
+    <Project Path="src/Services/Account.API/Account.Domain/Account.Domain.csproj" />
+    <Project Path="src/Services/Account.API/Account.Infrastructure/Account.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
